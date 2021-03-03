@@ -1,0 +1,17 @@
+PDFファイルを出力するディレクトリ
+output_dir: 
+
+商品の管理IDとASINが同時に掲載されているcsvファイルに対する設定
+asin_product_file_dir:
+ap_asin_column:
+ap_product_id_column:
+
+商品の管理IDとFNSKUが同時に掲載されているcsvファイルに対する設定
+fnsku_product_file_dir:
+fp_fnsku_column:
+fp_product_id_column:
+
+画像の取得に対する設定
+@id@を使って画像の場所を指定
+img_root_dir: C:\Users\faste\OneDrive\デスクトップ\image
+img_location_rule: @id@-s.jpg
