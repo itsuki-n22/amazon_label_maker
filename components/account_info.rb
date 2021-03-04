@@ -11,6 +11,8 @@ def account_info
     case line
     when /output_dir:/
       hash[:output_dir] = line.split("output_dir:").last.strip
+    when /output_filename:/
+      hash[:output_filename] = line.split("output_filename:").last.strip
     when /is_ap_file_use_argv:/
       hash[:is_ap_file_use_argv] = line.split("is_ap_file_use_argv:").last.strip
     when /ap_file_dir:/
@@ -45,6 +47,8 @@ def account_info
       hash[:img_root_dir] = line.split("img_root_dir:").last.strip
     when /img_location_rule:/
       hash[:img_location_rule] = line.split("img_location_rule:").last.strip
+    when /wkhtmltopdf_dir:/
+      hash[:wkhtmltopdf_dir] = line.split("wkhtmltopdf_dir:").last.strip
     end
   end
 

@@ -1,17 +1,47 @@
-PDFファイルを出力するディレクトリ
-output_dir: 
+■PDFファイルを出力するディレクトリ
 
-商品の管理IDとASINが同時に掲載されているcsvファイルに対する設定
-asin_product_file_dir:
-ap_asin_column:
-ap_product_id_column:
 
-商品の管理IDとFNSKUが同時に掲載されているcsvファイルに対する設定
-fnsku_product_file_dir:
-fp_fnsku_column:
-fp_product_id_column:
+output_dir: C:\Users\User\デスクトップ
+output_filename: amazon_label
 
-画像の取得に対する設定
-@id@を使って画像の場所を指定
-img_root_dir: C:\Users\faste\OneDrive\デスクトップ\image
+
+■商品の管理IDとASINが同時に掲載されているcsvファイルに対する設定
+
+
+is_ap_file_use_argv: y
+ap_file_dir: 
+ap_asin_column: 2
+ap_product_id_column: 1
+ap_header_skip: y
+
+
+■商品の管理IDとFNSKUが同時に掲載されているcsvファイルに対する設定
+
+
+is_fp_file_use_argv: y
+fp_file_dir:
+fp_fnsku_column: 9
+fp_product_id_column: 1
+fp_header_skip: y
+
+
+
+■商品の管理IDとプリント数が同時に掲載されているcsvファイルに対する設定
+
+
+is_pq_file_use_argv: y
+pq_file_dir:
+pq_quantity_column: 7
+pq_product_id_column: 1
+pq_header_skip: y
+
+
+■画像の取得に対する設定
+
+
+img_root_dir: http://targetfile.com/files/
 img_location_rule: @id@-s.jpg
+
+
+■wkhtmltopdf.exe の場所を指定
+wkhtmltopdf_dir: wkhtmltopdf/bin/wkhtmltopdf.exe

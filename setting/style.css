@@ -1,0 +1,45 @@
+@page{
+		/*The A4 paper size is 210 mm wide by 297 mm long*/
+		size: 210mm 297mm;
+}
+
+.item {
+    height: 70mm;
+    width: 25%;
+    float: left;
+
+}
+
+.wrap {
+    margin: 10px;
+}
+
+.i_1 {
+    width: 47%;
+    height: 100px;
+}
+
+
+.i_2 {
+    width: 47%;
+    height: 100px;
+}
+
+.i_3 {
+    height: 85px;
+    width: 100%;
+}
+
+.id {
+    height: 20px;
+    width: 100%;
+    text-align: center;
+    margin: 3px;
+}
+
+.fnsku {
+    height: 20px;
+    width: 100%;
+    text-align: center;
+    margin: 5px;
+}
