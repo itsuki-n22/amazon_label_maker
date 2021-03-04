@@ -1,5 +1,12 @@
 利用条件： windows10 ※ruby が利用できる状態であることが必要です。  
   
+完成例：  
+pdf  
+[amazon_label.pdf](https://github.com/itsuki-n22/amazon_label_maker/files/6081505/amazon_label.pdf)  
+  
+参考画像:  
+![76a27a8196dace1f4cbb9fd5653ba32d](https://user-images.githubusercontent.com/54315732/109925059-964e7f00-7d04-11eb-8302-2fd7c02c2b91.png)  
+  
 ## 手順
 0.準備  
 setup.batを起動すると必要な gemをinstallできます。  
@@ -95,3 +102,5 @@ img_location_rule は画像の場所の指定の仕方を設定。
   
 img_root_dir: http://hoge/files/images/  
 img_location_rule: @id@-s.jpg  
+
+
