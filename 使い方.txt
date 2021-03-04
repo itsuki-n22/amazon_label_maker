@@ -92,5 +92,5 @@ img_location_rule は画像の場所の指定の仕方を設定。
 
 例：
 
-img_root_dir: https://fastest-trade.com/p_list2/image
+img_root_dir: http://hoge/files/images/
 img_location_rule: @id@-s.jpg
